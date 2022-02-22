@@ -11,6 +11,9 @@ body{
 	padding-top: 100px;
 	text-align: center;
 }
+.BodyPicture{
+	margin-left: 0px;
+}
 thead:hover{
 	background-color: black;
 	color: white;

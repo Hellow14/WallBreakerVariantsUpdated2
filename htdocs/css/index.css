@@ -34,6 +34,9 @@ body{
 	border: 2px solid white;
 	background-position: 50px -715px;
 }
+.button1:active{
+	background-position: 300px -715px;
+}
 .button2{
 	border: 2px solid  #4d4d4d;
 	text-align: center;
@@ -50,6 +53,9 @@ body{
 	background-color: #262626;
 	border: 2px solid white;
 	background-position: 100px -760px;
+}
+.button2:active{
+	background-position: 0 -1000px;
 }
 .button3{
 	border: 2px solid  #4d4d4d;
@@ -68,6 +74,9 @@ body{
 	border: 2px solid white;
 	background-position: 60px -720px;
 }
+.button3:active{
+	background-position: 350px -720px;
+}
 .button4{
 	border: 2px solid  #4d4d4d;
 	text-align: center;
@@ -77,11 +86,16 @@ body{
 	transition-duration: 1s;
 	display: inline-block;
 	min-width: 150px;
+	background: url(images/DragonRiderSprite.png) no-repeat;
 }
 .button4:hover{
 	color: white;
 	background-color: #262626;
 	border: 2px solid white;
+	background-position: -280px -480px;
+}
+.button4:active{
+	background-position: -560px -960px;
 }
 .button5{
 	border: 2px solid  #4d4d4d;
@@ -98,7 +112,6 @@ body{
 	background-color: #262626;
 	border: 2px solid white;
 }
-
 footer{
 	padding-top: 30px;
 	font-size: 10px;
